@@ -8,13 +8,13 @@
 	<meta name="author" content="Generation Brasil" />
 	<meta name="keywords" content="HTML, CSS, JavaScript" />
 	<link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+	<link rel="stylesheet" href="./assets/css/style.css">
 	<title>Meu Perfil</title>
 </head>
 
 <body>
-
 	<header>
-		<div id="header_cotent">
+		<div id="header_content" class="flex">
 			<div id="titulo">
 				<h1>André Lins</h1>
 			</div>
@@ -29,18 +29,20 @@
 						</li>
 					</ul>
 				</nav>
-
 			</div>
 		</div>
-
 	</header>
 
 	<main>
-		<section id="about">
+		<section id="about" class="flex_start">
 			<h2>Quem sou eu</h2>
-			<div id="conteudo">
+			<div id="conteudo" class="flex">
 
-				<img src="./assets/img/Andre Lins.jpg" alt="Foto do autor do site">
+				<img 
+					src="./assets/img/Andre Lins.jpg" 
+					alt="Foto do autor do site"
+					class="img_profile"
+				>
 
 				<article id="sobre_texto">
 
@@ -89,9 +91,9 @@
 
 		</section>
 
-		<section id="video">
+		<section id="video" class="flex_start">
 			<h2>Meu video favorito</h2>
-			<div>
+			<div id="youtube" class="flex">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/GFuNTV-hi9M?si=x6dL2f3cLEP75aan"
 					frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen>
@@ -101,18 +103,17 @@
 
 	</main>
 
-	<footer>
-
+	<footer class="flex">
 		<section id="redes_sociais">
 
 			<a href="https://www.linkedin.com/in/andrelins07/">
-				<img src="assets/img/linkedin.svg" alt="LinkedIn" />
+				<img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
 			</a>
 			<a href="https://github.com/andrelins07">
-				<img src="assets/img/github.svg" alt="Github" />
+				<img src="assets/img/github.svg" alt="Github" class="social_icon"/>
 			</a>
 			<a href="https://www.instagram.com/andre_lins07/">
-				<img src="assets/img/instagram.svg" alt="Instagram" />
+				<img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
 			</a>
 
 		</section>
