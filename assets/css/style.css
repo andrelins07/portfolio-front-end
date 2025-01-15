@@ -84,7 +84,6 @@ p {
     justify-content: space-between;
     padding: 24px;
     background-color: var(--blue-800);
-    border-bottom: 1px solid var(--blue-500);
 }
 
 #menu li {
